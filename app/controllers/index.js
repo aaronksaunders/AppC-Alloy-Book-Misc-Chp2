@@ -8,16 +8,15 @@ function doClick(e) {
 	var url = "https://api.cloud.appcelerator.com/v1/users/login.json?key=" +appId;
 	var client = Ti.Network.createHTTPClient({
 		//  called when the response data is available
-		onload : function(e) {
+		onload : function(_response) {
 			var results = JSON.parse(client.responseText);
 			// display results on console
 			Ti.API.info(JSON.stringify(results, null, 2));
 		},
 		//  called when an error occurs, including a timeout
-		onerror : function(e) {
-			var results = JSON.parse(client.responseText);
+		onerror : function(_error) {
 			// display error results on the console
-			Ti.API.err(JSON.stringify(results, null, 2));
+			Ti.API.error(JSON.stringify(_error, null, 2));
 		},
 	});
 	// Prepare the connection
