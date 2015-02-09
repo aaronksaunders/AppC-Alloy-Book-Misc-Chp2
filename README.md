@@ -1,6 +1,10 @@
 
 Building Cross-Platform Apps using Titanium, Alloy, and Appcelerator Cloud Services
 ====
+
+[![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
+
+
 ![Book Cover Image](http://ecx.images-amazon.com/images/I/519RGyDDVIL.jpg)
 ### Notes on this sample code from Chapter Two
 
